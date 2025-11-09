@@ -1,3 +1,4 @@
+/*
 package com.prathiksh.security.oauth;
 
 import org.springframework.context.annotation.Bean;
@@ -9,11 +10,12 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
-@Configuration
-@EnableWebSecurity
+//@Configuration
+//@EnableWebSecurity
 public class SecurityConfig {
 
-    @Bean
+   */
+/* @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
     }
@@ -27,6 +29,8 @@ public class SecurityConfig {
                 .oauth2Client(Customizer.withDefaults());
        return http.build();
     }
+*//*
 
 
 }
+*/

@@ -1,4 +1,4 @@
-package com.prathiksh.security;
+package com.prathiksh.security.user;
 
 public class UserAuthDto {
 
